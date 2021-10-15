@@ -8,10 +8,11 @@ import glob
 import random
 import shutil
 
-dataset_dir = os.path.join("..", "..", "Data", "cifar-10-png", "raw_test")
-train_dir = os.path.join("..", "..", "Data", "train")
-valid_dir = os.path.join("..", "..", "Data", "valid")
-test_dir = os.path.join("..", "..", "Data", "test")
+prefix_path = '/Users/zjt/datasets/cifar_10/split'
+dataset_dir = os.path.join('/Users/zjt/datasets/cifar_10', "cifar-10-png", "raw_test")
+train_dir = os.path.join(  prefix_path, "train")
+valid_dir = os.path.join(  prefix_path, "valid")
+test_dir = os.path.join(   prefix_path, "test")
 
 train_per = 0.8
 valid_per = 0.1

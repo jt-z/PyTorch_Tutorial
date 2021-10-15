@@ -48,3 +48,8 @@ print("normMean = {}".format(means))
 print("normStd = {}".format(stdevs))
 print('transforms.Normalize(normMean = {}, normStd = {})'.format(means, stdevs))
 
+# normMean = [0.4938527, 0.4843238, 0.45175093]
+# normStd = [0.24675037, 0.24294934, 0.26113576]
+# transforms.Normalize(normMean = [0.4938527, 0.4843238, 0.45175093], normStd = [0.24675037, 0.24294934, 0.26113576])
+
+

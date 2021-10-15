@@ -3,12 +3,12 @@ import os
 '''
     为数据集生成对应的txt文件
 '''
-
+prefix_path ='/Users/zjt/datasets/cifar_10/split'
 train_txt_path = os.path.join("..", "..", "Data", "train.txt")
-train_dir = os.path.join("..", "..", "Data", "train")
+train_dir = os.path.join(prefix_path, "train")
 
 valid_txt_path = os.path.join("..", "..", "Data", "valid.txt")
-valid_dir = os.path.join("..", "..", "Data", "valid")
+valid_dir = os.path.join(prefix_path,"valid")
 
 
 def gen_txt(txt_path, img_dir):
